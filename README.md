@@ -1,7 +1,8 @@
-# Voice Assistant Launcher (PSoC4 firmware)
-### Existing Voice Assistance (e.g. Google Assistance/Siri) keeps capturing data from microphone all the time, in order to detect the trigger words/phrases like Hey Google / Siri. This causes a privacy concern as user may be unwilling to be listened by the Voice Assistance 24x7. 
+# Voice Assistant Launcher (PSoC4 and EZ-BLE firmware)
+### Existing Voice Assistance (e.g. Google Assistance/Siri) keeps capturing data from microphone all the time, in order to detect the trigger words/phrases like "Hey Google" / "Siri". This causes a privacy concern as user may be unwilling to be listened by the Voice Assistance 24x7. 
 ### In additional, unintentional trigger may happen by a third party whose speaks the trigger words/phrases but captured by the Voice Assistance.
-### This PSoC4 firmware leverages the Infineon's CapSense technology to implement a voice trigger commander.
+### This PSoC4 firmware leverages the Infineon's CapSense technology to implement a voice trigger commander. 
+### User moves his/her finger on the CapSense trackpad with a rotate-clocksize gesture. The PSoC 4100S sends an "EventLaunch" message to Android device via the EZ-BLE module. The VoiceAssistantLauncher APP installed on the Android device launches Google Assistant once received the "EventLaunch" message.
 ---
 
 [![License: LGPL v3](https://img.shields.io/badge/License-LGPL_v3-blue.svg)](https://github.com/teamprof/psoc4-voice-assistant-launcher/blob/main/LICENSE)
@@ -16,14 +17,15 @@
    [![CY8CKIT-041-41XX](https://www.infineon.com/export/sites/default/_images/product/evaluation-boards/CY8CKIT-041-41XX_0.png_391500115.png)](https://www.infineon.com/export/sites/default/_images/product/evaluation-boards/CY8CKIT-041-41XX_0.png_391500115.png)
 
 2. A mobile phone running with Android version 8.0 or above
+[![Android 8](images/android8.jpg)](https://www.android.com/versions/oreo-8-0/)
 
 ### Software
 1. [`PSoC creator 4.4](https://www.infineon.com/cms/en/design-support/tools/sdk/psoc-software/psoc-creator/)
 
 
 ---
-## TODO: System block diagram
-
+## System diagram
+[![System Diagram](images/system-diagram.jpg)](https://github.com/teamprof/psoc4-voice-assistant-launcher/tree/main/images/system-diagram.jpg)
 
 ---
 
@@ -57,6 +59,8 @@
 
 ## TODO: demo code
 
+## TODO: Debug Log
+The PSoC 4100S firmware includes debug log via UART1. Simply launch a Serial Terminal (e.g. TeraTerm) and connect to CY8CKIT's COM port at "115200, 8N1" to see the log message.
 
 ## Issues
 
