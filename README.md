@@ -33,21 +33,21 @@
 3. Open the decompressed workspace. (There are two projects: EZ-BLE_PRoC_Module and VoiceAssistantLauncher on the workspace) 
 4. Set 'EZ-BLE_PRoC_Module' as active project. 
 5. Clean and build EZ-BLE_PRoC_Module 
-[![Build BLE module](images/build-ble-module.JPG)](https://github.com/teamprof/psoc4-voice-assistant-launcher/tree/main/images/build-ble-module.JPG)
+[![Build BLE module](images/build-ble-module.jpg)](https://github.com/teamprof/psoc4-voice-assistant-launcher/tree/main/images/build-ble-module.jpg)
 6. Switch KitProg2 to EZ-BLE PRoC Module (SW5 to bottom position)
-[![KitProg2 switch](images/KitProg2-switch.JPG)](https://github.com/teamprof/psoc4-voice-assistant-launcher/tree/main/images/KitProg2-switch.JPG)
+[![KitProg2 switch](images/KitProg2-switch.jpg)](https://github.com/teamprof/psoc4-voice-assistant-launcher/tree/main/images/KitProg2-switch.jpg)
 7. Connect CY8CKIT-041-41XX to PC with an USB cable. Program the BLE_PRoC_Module firmware to CY8CKIT-041-41XX's EZ-BLE PRoC Module
 
 8. Unplug the USB cable between CY8CKIT-041-41XX and PC
 9. Switch KitProg2 back to PSoC 4100S (SW5 to top position)
 10. Set 'VoiceAssistantLauncher' as active project. 
 11. Clean and build VoiceAssistantLauncher
-[![Build Voice Assistant](images/build-voice-assistant.JPG)](https://github.com/teamprof/psoc4-voice-assistant-launcher/tree/main/images/build-voice-assistant.JPG)
+[![Build Voice Assistant](images/build-voice-assistant.jpg)](https://github.com/teamprof/psoc4-voice-assistant-launcher/tree/main/images/build-voice-assistant.jpg)
 12. Connect CY8CKIT-041-41XX to PC with an USB cable again. Program the VoiceAssistantLauncher firmware to CY8CKIT-041-41XX's PSoC 4100S
 13. Press the "Reset" button on CY8CKIT-041-41XX
-[![Reset button](images/button-reset.JPG)](https://github.com/teamprof/psoc4-voice-assistant-launcher/tree/main/images/button-reset.JPG)
+[![Reset button](images/button-reset.jpg)](https://github.com/teamprof/psoc4-voice-assistant-launcher/tree/main/images/button-reset.jpg)
 14. Draw a clockwise circle in the trackpad area with a finger. The Green LED should be on if everything goes smooth.
-[![Trackpad](images/trackpad.JPG)](https://github.com/teamprof/psoc4-voice-assistant-launcher/tree/main/images/trackpad.JPG)
+[![Trackpad](images/trackpad.jpg)](https://github.com/teamprof/psoc4-voice-assistant-launcher/tree/main/images/trackpad.jpg)
 14. Draw a counter-clockwise circle in the trackpad area with a finger. The Green LED should be off.
 ---
 
