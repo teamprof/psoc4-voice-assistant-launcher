@@ -59,8 +59,11 @@
 
 ## TODO: demo code
 
-## TODO: Debug Log
-The PSoC 4100S firmware includes debug log via UART1. Simply launch a Serial Terminal (e.g. TeraTerm) and connect to CY8CKIT's COM port at "115200, 8N1" to see the log message.
+## Debug Log
+The PSoC 4100S firmware includes debug log via UART1. Simply launch a Serial Terminal (e.g. TeraTerm) and connect it to KitProg3 USB-UART port at "115200, 8N1" to see the log message.
+The App version is shown after boot. "CapSense_ONE_FINGER_ROTATE_CW" message is shown after detected user's rotate-clockwise gesture.
+[![Debug Log](images/debug-log.jpg)](https://github.com/teamprof/psoc4-voice-assistant-launcher/tree/main/images/debug-log.jpg)
+
 
 ## Issues
 
