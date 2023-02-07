@@ -53,9 +53,12 @@
 14. Draw a counter-clockwise circle in the trackpad area with a finger. The Green LED should be off.
 ---
 
-## TODO: Install mobile App on Android device 
+## Install mobile App on Android device 
+download and install the Voice Assistant Launcher App on Google Play: 
+https://play.google.com/store/apps/details?id=net.teamprof.aremotekeyboard&pli=1
 
-## TODO: demo Video 
+## Video Demo
+https://www.youtube.com/watch?v=xKHtfiDUNvw
 
 ## TODO: demo code
 
