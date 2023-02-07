@@ -60,7 +60,68 @@ https://play.google.com/store/apps/details?id=net.teamprof.aremotekeyboard&pli=1
 ## Video Demo
 https://www.youtube.com/watch?v=xKHtfiDUNvw
 
-## TODO: demo code
+## Demo code
+init I2C and CapSense at the beginning of main. Then enter a while loop where detect and handle gesture.
+```
+int main(void)
+{
+   ...
+   I2C_Start();
+   CapSense_Start();
+
+   CapSense_dsRam.timestampInterval = 2u;
+   CySysTickStart();
+   CySysTickSetCallback(0u, CapSense_IncrementGestureTimestamp);
+
+   CapSense_ScanAllWidgets();
+
+   for (;;)
+   {
+      /* Checks if the scan was completed before trying to process data */
+      if (CapSense_NOT_BUSY == CapSense_IsBusy())
+      {
+         CapSense_ProcessAllWidgets();
+
+         /* Stores the current detected gesture */
+         uint32 gesture = CapSense_DecodeWidgetGestures(CapSense_TOUCHPAD0_WDGT_ID);
+
+         /* Stores current finger position on the touchpad */
+         uint32 XYcordinates = CapSense_GetXYCoordinates(CapSense_TOUCHPAD0_WDGT_ID);
+
+         handlerGesture(gesture, XYcordinates);
+
+         /* Required to maintain sychronization with tuner interface */
+         CapSense_RunTuner();
+
+         /* Initiates the next scan of all widgets */
+         CapSense_ScanAllWidgets();
+      }
+    }
+}
+```
+In the handlerGesture() function, it sends a "launch" command to the BLE module via I2C connection.
+```
+static void handlerGesture(uint32 gesture, uint32 xy)
+{
+   switch (gesture)
+   {
+      ...
+
+      case CapSense_ONE_FINGER_ROTATE_CW:
+         DBGLOG(Debug, "CapSense_ONE_FINGER_ROTATE_CW");
+
+         ipcRst = ipcSendMessage(&msg);
+         if (TRANSFER_CMPLT != ipcRst)
+         {
+            DBGLOG(Debug, "ipcSendMessage() returns %lu", ipcRst);
+         }
+         break;
+
+      ...
+   }
+}
+```
+
 
 ## Debug Log
 The PSoC 4100S firmware includes debug log via UART1. Simply launch a Serial Terminal (e.g. TeraTerm) and connect it to KitProg3 USB-UART port at "115200, 8N1" to see the log message.
