@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CyXmlSerializer>
+<!--This file is machine generated and read. It is not intended to be edited by hand.-->
+<!--Due to this, there is no schema for this file.-->
+<CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21 type_name="CyDesigner.Common.ProjMgmt.Model.CyPrjMgmtWrkspcCustomData" version="4">
+<CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997 type_name="CyDesigner.Common.Base.CyCustomData" version="2">
+<userData>
+<dataGuid v="1b906a0f-a7b6-4e4d-a428-82f98b53cb35">
+<CyGuid_1b906a0f-a7b6-4e4d-a428-82f98b53cb35 type_name="CyDesigner.Common.ProjMgmt.GUI.CyExplorerWindow+CyExplorerWindowState" version="3" SelectedTab="Source">
+<TreeKeys>
+<v>Source</v>
+<v>Components</v>
+<v>Output</v>
+</TreeKeys>
+<TreeStates>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="contest\EZ-BLE_PRoC_Module">
+<ExpandedNodeIds>
+<v>contest</v>
+<v>contest\EZ-BLE_PRoC_Module\TopDesign</v>
+<v>contest\EZ-BLE_PRoC_Module\EZ-BLE_PRoC_Module.cydwr</v>
+<v>contest\EZ-BLE_PRoC_Module\EZ-BLE_PRoC_Module.cydwr\Pins</v>
+<v>contest\EZ-BLE_PRoC_Module\EZ-BLE_PRoC_Module.cydwr\Analog</v>
+<v>contest\EZ-BLE_PRoC_Module\EZ-BLE_PRoC_Module.cydwr\Clocks</v>
+<v>contest\EZ-BLE_PRoC_Module\EZ-BLE_PRoC_Module.cydwr\Interrupts</v>
+<v>contest\EZ-BLE_PRoC_Module\EZ-BLE_PRoC_Module.cydwr\System</v>
+<v>contest\EZ-BLE_PRoC_Module\EZ-BLE_PRoC_Module.cydwr\Directives</v>
+<v>contest\EZ-BLE_PRoC_Module\EZ-BLE_PRoC_Module.cydwr\Flash Security</v>
+<v>contest\EZ-BLE_PRoC_Module\Header Files</v>
+<v>contest\EZ-BLE_PRoC_Module\Header Files\app_Ble.h</v>
+<v>contest\EZ-BLE_PRoC_Module\Header Files\app_I2C.h</v>
+<v>contest\EZ-BLE_PRoC_Module\Header Files\config.h</v>
+<v>contest\EZ-BLE_PRoC_Module\Header Files\cyapicallbacks.h</v>
+<v>contest\EZ-BLE_PRoC_Module\Header Files\LED.h</v>
+<v>contest\EZ-BLE_PRoC_Module\Header Files\low_power.h</v>
+<v>contest\EZ-BLE_PRoC_Module\Header Files\main.h</v>
+<v>contest\EZ-BLE_PRoC_Module\Source Files</v>
+<v>contest\EZ-BLE_PRoC_Module\Source Files\app_Ble.c</v>
+<v>contest\EZ-BLE_PRoC_Module\Source Files\app_I2C.c</v>
+<v>contest\EZ-BLE_PRoC_Module\Source Files\low_power.c</v>
+<v>contest\EZ-BLE_PRoC_Module\Source Files\main.c</v>
+<v>contest\EZ-BLE_PRoC_Module\Generated_Source\PSoC4</v>
+<v>contest\VoiceAssistantLauncher</v>
+<v>contest\VoiceAssistantLauncher\TopDesign</v>
+<v>contest\VoiceAssistantLauncher\VoiceAssistantLauncher.cydwr</v>
+<v>contest\VoiceAssistantLauncher\VoiceAssistantLauncher.cydwr\Pins</v>
+<v>contest\VoiceAssistantLauncher\VoiceAssistantLauncher.cydwr\Analog</v>
+<v>contest\VoiceAssistantLauncher\VoiceAssistantLauncher.cydwr\Clocks</v>
+<v>contest\VoiceAssistantLauncher\VoiceAssistantLauncher.cydwr\Interrupts</v>
+<v>contest\VoiceAssistantLauncher\VoiceAssistantLauncher.cydwr\System</v>
+<v>contest\VoiceAssistantLauncher\VoiceAssistantLauncher.cydwr\Directives</v>
+<v>contest\VoiceAssistantLauncher\VoiceAssistantLauncher.cydwr\Flash Security</v>
+<v>contest\VoiceAssistantLauncher\Header Files</v>
+<v>contest\VoiceAssistantLauncher\Header Files\AppEvent.h</v>
+<v>contest\VoiceAssistantLauncher\Header Files\AppLog.h</v>
+<v>contest\VoiceAssistantLauncher\Header Files\cyapicallbacks.h</v>
+<v>contest\VoiceAssistantLauncher\Header Files\Message.h</v>
+<v>contest\VoiceAssistantLauncher\Source Files</v>
+<v>contest\VoiceAssistantLauncher\Source Files\AppLog.c</v>
+<v>contest\VoiceAssistantLauncher\Source Files\main.c</v>
+<v>contest\VoiceAssistantLauncher\Generated_Source\PSoC4</v>
+</ExpandedNodeIds>
+<VisibleNodeIds />
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
+<ExpandedNodeIds>
+<v>contest</v>
+<v>contest\VoiceAssistantLauncher</v>
+<v>contest\VoiceAssistantLauncher\TopDesign</v>
+<v>contest\VoiceAssistantLauncher\TopDesign\PSoC4</v>
+<v>contest\VoiceAssistantLauncher\TopDesign\PSoC4\PSoC 4000S</v>
+<v>contest\VoiceAssistantLauncher\TopDesign\PSoC4\PSoC 4000S\TopDesign.ctl</v>
+<v>contest\VoiceAssistantLauncher\TopDesign\PSoC4\PSoC 4100S</v>
+<v>contest\VoiceAssistantLauncher\TopDesign\PSoC4\PSoC 4100S\TopDesign.ctl</v>
+<v>contest\VoiceAssistantLauncher\TopDesign\TopDesign.cysch</v>
+</ExpandedNodeIds>
+<VisibleNodeIds />
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
+<ExpandedNodeIds>
+<v>contest</v>
+<v>contest\EZ-BLE_PRoC_Module</v>
+<v>contest\EZ-BLE_PRoC_Module\CortexM0</v>
+<v>contest\EZ-BLE_PRoC_Module\CortexM0\ARM_GCC_541</v>
+<v>contest\EZ-BLE_PRoC_Module\CortexM0\ARM_GCC_541\Debug</v>
+<v>contest\EZ-BLE_PRoC_Module\CortexM0\ARM_GCC_541\Debug\Listing Files</v>
+<v>contest\EZ-BLE_PRoC_Module\CortexM0\ARM_GCC_541\Debug\Listing Files\ADV_LED.lst</v>
+<v>contest\EZ-BLE_PRoC_Module\CortexM0\ARM_GCC_541\Debug\Listing Files\ADV_LED_PM.lst</v>
+<v>contest\EZ-BLE_PRoC_Module\CortexM0\ARM_GCC_541\Debug\Listing Files\app_Ble.lst</v>
+<v>contest\EZ-BLE_PRoC_Module\CortexM0\ARM_GCC_541\Debug\Listing Files\app_I2C.lst</v>
+<v>contest\EZ-BLE_PRoC_Module\CortexM0\ARM_GCC_541\Debug\Listing Files\BLE.lst</v>
+<v>contest\EZ-BLE_PRoC_Module\CortexM0\ARM_GCC_541\Debug\Listing Files\BLE_bless_isr.lst</v>
+<v>contest\EZ-BLE_PRoC_Module\CortexM0\ARM_GCC_541\Debug\Listing Files\BLE_custom.lst</v>
+<v>contest\EZ-BLE_PRoC_Module\CortexM0\ARM_GCC_541\Debug\Listing Files\BLE_eventHandler.lst</v>
+<v>contest\EZ-BLE_PRoC_Module\CortexM0\ARM_GCC_541\Debug\Listing Files\BLE_gatt.lst</v>
+<v>contest\EZ-BLE_PRoC_Module\CortexM0\ARM_GCC_541\Debug\Listing Files\BLE_HAL_INT.lst</v>
+<v>contest\EZ-BLE_PRoC_Module\CortexM0\ARM_GCC_541\Debug\Listing Files\BLE_HAL_PVT.lst</v>
+<v>contest\EZ-BLE_PRoC_Module\CortexM0\ARM_GCC_541\Debug\Listing Files\Cm0Start.lst</v>
+<v>contest\EZ-BLE_PRoC_Module\CortexM0\ARM_GCC_541\Debug\Listing Files\CONNECT_LED.lst</v>
+<v>contest\EZ-BLE_PRoC_Module\CortexM0\ARM_GCC_541\Debug\Listing Files\CONNECT_LED_PM.lst</v>
+<v>contest\EZ-BLE_PRoC_Module\CortexM0\ARM_GCC_541\Debug\Listing Files\cy_em_eeprom.lst</v>
+<v>contest\EZ-BLE_PRoC_Module\CortexM0\ARM_GCC_541\Debug\Listing Files\CyBootAsmGnu.lst</v>
+<v>contest\EZ-BLE_PRoC_Module\CortexM0\ARM_GCC_541\Debug\Listing Files\cyfitter_cfg.lst</v>
+<v>contest\EZ-BLE_PRoC_Module\CortexM0\ARM_GCC_541\Debug\Listing Files\CyFlash.lst</v>
+<v>contest\EZ-BLE_PRoC_Module\CortexM0\ARM_GCC_541\Debug\Listing Files\CyLFClk.lst</v>
+<v>contest\EZ-BLE_PRoC_Module\CortexM0\ARM_GCC_541\Debug\Listing Files\CyLib.lst</v>
+<v>contest\EZ-BLE_PRoC_Module\CortexM0\ARM_GCC_541\Debug\Listing Files\cymetadata.lst</v>
+<v>contest\EZ-BLE_PRoC_Module\CortexM0\ARM_GCC_541\Debug\Listing Files\cyPm.lst</v>
+<v>contest\EZ-BLE_PRoC_Module\CortexM0\ARM_GCC_541\Debug\Listing Files\cyutils.lst</v>
+<v>contest\EZ-BLE_PRoC_Module\CortexM0\ARM_GCC_541\Debug\Listing Files\DISCON_LED.lst</v>
+<v>contest\EZ-BLE_PRoC_Module\CortexM0\ARM_GCC_541\Debug\Listing Files\DISCON_LED_PM.lst</v>
+<v>contest\EZ-BLE_PRoC_Module\CortexM0\ARM_GCC_541\Debug\Listing Files\I2C.lst</v>
+<v>contest\EZ-BLE_PRoC_Module\CortexM0\ARM_GCC_541\Debug\Listing Files\I2C_BOOT.lst</v>
+<v>contest\EZ-BLE_PRoC_Module\CortexM0\ARM_GCC_541\Debug\Listing Files\I2C_I2C.lst</v>
+<v>contest\EZ-BLE_PRoC_Module\CortexM0\ARM_GCC_541\Debug\Listing Files\I2C_I2C_BOOT.lst</v>
+<v>contest\EZ-BLE_PRoC_Module\CortexM0\ARM_GCC_541\Debug\Listing Files\I2C_I2C_INT.lst</v>
+<v>contest\EZ-BLE_PRoC_Module\CortexM0\ARM_GCC_541\Debug\Listing Files\I2C_I2C_SLAVE.lst</v>
+<v>contest\EZ-BLE_PRoC_Module\CortexM0\ARM_GCC_541\Debug\Listing Files\I2C_PM.lst</v>
+<v>contest\EZ-BLE_PRoC_Module\CortexM0\ARM_GCC_541\Debug\Listing Files\I2C_SCB_IRQ.lst</v>
+<v>contest\EZ-BLE_PRoC_Module\CortexM0\ARM_GCC_541\Debug\Listing Files\I2C_SCBCLK.lst</v>
+<v>contest\EZ-BLE_PRoC_Module\CortexM0\ARM_GCC_541\Debug\Listing Files\I2C_scl.lst</v>
+<v>contest\EZ-BLE_PRoC_Module\CortexM0\ARM_GCC_541\Debug\Listing Files\I2C_scl_PM.lst</v>
+<v>contest\EZ-BLE_PRoC_Module\CortexM0\ARM_GCC_541\Debug\Listing Files\I2C_sda.lst</v>
+<v>contest\EZ-BLE_PRoC_Module\CortexM0\ARM_GCC_541\Debug\Listing Files\I2C_sda_PM.lst</v>
+<v>contest\EZ-BLE_PRoC_Module\CortexM0\ARM_GCC_541\Debug\Listing Files\low_power.lst</v>
+<v>contest\EZ-BLE_PRoC_Module\CortexM0\ARM_GCC_541\Debug\Listing Files\main.lst</v>
+<v>contest\EZ-BLE_PRoC_Module\CortexM0\ARM_GCC_541\Debug\EZ-BLE_PRoC_Module.elf</v>
+<v>contest\EZ-BLE_PRoC_Module\CortexM0\ARM_GCC_541\Debug\EZ-BLE_PRoC_Module.hex</v>
+<v>contest\EZ-BLE_PRoC_Module\CortexM0\ARM_GCC_541\Debug\EZ-BLE_PRoC_Module.map</v>
+<v>contest\EZ-BLE_PRoC_Module\EZ-BLE_PRoC_Module.gpdsc</v>
+<v>contest\EZ-BLE_PRoC_Module\EZ-BLE_PRoC_Module.rpt</v>
+<v>contest\EZ-BLE_PRoC_Module\EZ-BLE_PRoC_Module_timing.html</v>
+<v>contest\VoiceAssistantLauncher</v>
+<v>contest\VoiceAssistantLauncher\CortexM0p</v>
+<v>contest\VoiceAssistantLauncher\CortexM0p\ARM_GCC_541</v>
+<v>contest\VoiceAssistantLauncher\CortexM0p\ARM_GCC_541\Debug</v>
+<v>contest\VoiceAssistantLauncher\CortexM0p\ARM_GCC_541\Debug\Listing Files</v>
+<v>contest\VoiceAssistantLauncher\CortexM0p\ARM_GCC_541\Debug\Listing Files\AppLog.lst</v>
+<v>contest\VoiceAssistantLauncher\CortexM0p\ARM_GCC_541\Debug\Listing Files\Blue_LED.lst</v>
+<v>contest\VoiceAssistantLauncher\CortexM0p\ARM_GCC_541\Debug\Listing Files\Blue_LED_PM.lst</v>
+<v>contest\VoiceAssistantLauncher\CortexM0p\ARM_GCC_541\Debug\Listing Files\CapSense_Centroid_LL.lst</v>
+<v>contest\VoiceAssistantLauncher\CortexM0p\ARM_GCC_541\Debug\Listing Files\CapSense_Control.lst</v>
+<v>contest\VoiceAssistantLauncher\CortexM0p\ARM_GCC_541\Debug\Listing Files\CapSense_Filter.lst</v>
+<v>contest\VoiceAssistantLauncher\CortexM0p\ARM_GCC_541\Debug\Listing Files\CapSense_Gesture.lst</v>
+<v>contest\VoiceAssistantLauncher\CortexM0p\ARM_GCC_541\Debug\Listing Files\CapSense_INT.lst</v>
+<v>contest\VoiceAssistantLauncher\CortexM0p\ARM_GCC_541\Debug\Listing Files\CapSense_ISR.lst</v>
+<v>contest\VoiceAssistantLauncher\CortexM0p\ARM_GCC_541\Debug\Listing Files\CapSense_Processing.lst</v>
+<v>contest\VoiceAssistantLauncher\CortexM0p\ARM_GCC_541\Debug\Listing Files\CapSense_Sensing.lst</v>
+<v>contest\VoiceAssistantLauncher\CortexM0p\ARM_GCC_541\Debug\Listing Files\CapSense_SensingCSD_LL.lst</v>
+<v>contest\VoiceAssistantLauncher\CortexM0p\ARM_GCC_541\Debug\Listing Files\CapSense_Structure.lst</v>
+<v>contest\VoiceAssistantLauncher\CortexM0p\ARM_GCC_541\Debug\Listing Files\CapSense_TMG.lst</v>
+<v>contest\VoiceAssistantLauncher\CortexM0p\ARM_GCC_541\Debug\Listing Files\CapSense_Tuner.lst</v>
+<v>contest\VoiceAssistantLauncher\CortexM0p\ARM_GCC_541\Debug\Listing Files\Clock_1.lst</v>
+<v>contest\VoiceAssistantLauncher\CortexM0p\ARM_GCC_541\Debug\Listing Files\Cm0plusStart.lst</v>
+<v>contest\VoiceAssistantLauncher\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_em_eeprom.lst</v>
+<v>contest\VoiceAssistantLauncher\CortexM0p\ARM_GCC_541\Debug\Listing Files\CyBootAsmGnu.lst</v>
+<v>contest\VoiceAssistantLauncher\CortexM0p\ARM_GCC_541\Debug\Listing Files\cyfitter_cfg.lst</v>
+<v>contest\VoiceAssistantLauncher\CortexM0p\ARM_GCC_541\Debug\Listing Files\CyFlash.lst</v>
+<v>contest\VoiceAssistantLauncher\CortexM0p\ARM_GCC_541\Debug\Listing Files\CyLFClk.lst</v>
+<v>contest\VoiceAssistantLauncher\CortexM0p\ARM_GCC_541\Debug\Listing Files\CyLib.lst</v>
+<v>contest\VoiceAssistantLauncher\CortexM0p\ARM_GCC_541\Debug\Listing Files\cymetadata.lst</v>
+<v>contest\VoiceAssistantLauncher\CortexM0p\ARM_GCC_541\Debug\Listing Files\cyPm.lst</v>
+<v>contest\VoiceAssistantLauncher\CortexM0p\ARM_GCC_541\Debug\Listing Files\cyutils.lst</v>
+<v>contest\VoiceAssistantLauncher\CortexM0p\ARM_GCC_541\Debug\Listing Files\Green_LED.lst</v>
+<v>contest\VoiceAssistantLauncher\CortexM0p\ARM_GCC_541\Debug\Listing Files\Green_LED_PM.lst</v>
+<v>contest\VoiceAssistantLauncher\CortexM0p\ARM_GCC_541\Debug\Listing Files\I2C.lst</v>
+<v>contest\VoiceAssistantLauncher\CortexM0p\ARM_GCC_541\Debug\Listing Files\I2C_BOOT.lst</v>
+<v>contest\VoiceAssistantLauncher\CortexM0p\ARM_GCC_541\Debug\Listing Files\I2C_I2C.lst</v>
+<v>contest\VoiceAssistantLauncher\CortexM0p\ARM_GCC_541\Debug\Listing Files\I2C_I2C_BOOT.lst</v>
+<v>contest\VoiceAssistantLauncher\CortexM0p\ARM_GCC_541\Debug\Listing Files\I2C_I2C_INT.lst</v>
+<v>contest\VoiceAssistantLauncher\CortexM0p\ARM_GCC_541\Debug\Listing Files\I2C_I2C_MASTER.lst</v>
+<v>contest\VoiceAssistantLauncher\CortexM0p\ARM_GCC_541\Debug\Listing Files\I2C_PM.lst</v>
+<v>contest\VoiceAssistantLauncher\CortexM0p\ARM_GCC_541\Debug\Listing Files\I2C_SCB_IRQ.lst</v>
+<v>contest\VoiceAssistantLauncher\CortexM0p\ARM_GCC_541\Debug\Listing Files\I2C_SCBCLK.lst</v>
+<v>contest\VoiceAssistantLauncher\CortexM0p\ARM_GCC_541\Debug\Listing Files\I2C_scl.lst</v>
+<v>contest\VoiceAssistantLauncher\CortexM0p\ARM_GCC_541\Debug\Listing Files\I2C_scl_PM.lst</v>
+<v>contest\VoiceAssistantLauncher\CortexM0p\ARM_GCC_541\Debug\Listing Files\I2C_sda.lst</v>
+<v>contest\VoiceAssistantLauncher\CortexM0p\ARM_GCC_541\Debug\Listing Files\I2C_sda_PM.lst</v>
+<v>contest\VoiceAssistantLauncher\CortexM0p\ARM_GCC_541\Debug\Listing Files\main.lst</v>
+<v>contest\VoiceAssistantLauncher\CortexM0p\ARM_GCC_541\Debug\Listing Files\PWM_Blue.lst</v>
+<v>contest\VoiceAssistantLauncher\CortexM0p\ARM_GCC_541\Debug\Listing Files\PWM_Blue_PM.lst</v>
+<v>contest\VoiceAssistantLauncher\CortexM0p\ARM_GCC_541\Debug\Listing Files\PWM_Green.lst</v>
+<v>contest\VoiceAssistantLauncher\CortexM0p\ARM_GCC_541\Debug\Listing Files\PWM_Green_PM.lst</v>
+<v>contest\VoiceAssistantLauncher\CortexM0p\ARM_GCC_541\Debug\Listing Files\Red_LED.lst</v>
+<v>contest\VoiceAssistantLauncher\CortexM0p\ARM_GCC_541\Debug\Listing Files\Red_LED_PM.lst</v>
+<v>contest\VoiceAssistantLauncher\CortexM0p\ARM_GCC_541\Debug\Listing Files\UART.lst</v>
+<v>contest\VoiceAssistantLauncher\CortexM0p\ARM_GCC_541\Debug\Listing Files\UART_BOOT.lst</v>
+<v>contest\VoiceAssistantLauncher\CortexM0p\ARM_GCC_541\Debug\Listing Files\UART_PM.lst</v>
+<v>contest\VoiceAssistantLauncher\CortexM0p\ARM_GCC_541\Debug\Listing Files\UART_rx.lst</v>
+<v>contest\VoiceAssistantLauncher\CortexM0p\ARM_GCC_541\Debug\Listing Files\UART_rx_PM.lst</v>
+<v>contest\VoiceAssistantLauncher\CortexM0p\ARM_GCC_541\Debug\Listing Files\UART_SCBCLK.lst</v>
+<v>contest\VoiceAssistantLauncher\CortexM0p\ARM_GCC_541\Debug\Listing Files\UART_SPI_UART.lst</v>
+<v>contest\VoiceAssistantLauncher\CortexM0p\ARM_GCC_541\Debug\Listing Files\UART_SPI_UART_INT.lst</v>
+<v>contest\VoiceAssistantLauncher\CortexM0p\ARM_GCC_541\Debug\Listing Files\UART_tx.lst</v>
+<v>contest\VoiceAssistantLauncher\CortexM0p\ARM_GCC_541\Debug\Listing Files\UART_tx_PM.lst</v>
+<v>contest\VoiceAssistantLauncher\CortexM0p\ARM_GCC_541\Debug\Listing Files\UART_UART.lst</v>
+<v>contest\VoiceAssistantLauncher\CortexM0p\ARM_GCC_541\Debug\Listing Files\UART_UART_BOOT.lst</v>
+<v>contest\VoiceAssistantLauncher\CortexM0p\ARM_GCC_541\Debug\VoiceAssistantLauncher.elf</v>
+<v>contest\VoiceAssistantLauncher\CortexM0p\ARM_GCC_541\Debug\VoiceAssistantLauncher.hex</v>
+<v>contest\VoiceAssistantLauncher\CortexM0p\ARM_GCC_541\Debug\VoiceAssistantLauncher.map</v>
+<v>contest\VoiceAssistantLauncher\VoiceAssistantLauncher.gpdsc</v>
+<v>contest\VoiceAssistantLauncher\VoiceAssistantLauncher.rpt</v>
+<v>contest\VoiceAssistantLauncher\VoiceAssistantLauncher_timing.html</v>
+</ExpandedNodeIds>
+<VisibleNodeIds />
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+</TreeStates>
+<TreeKeysV2>
+<v>Datasheet</v>
+</TreeKeysV2>
+<TreeStatesV2>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
+<ExpandedNodeIds>
+<v>contest</v>
+<v>contest\EZ-BLE_PRoC_Module</v>
+<v>contest\EZ-BLE_PRoC_Module\PSoC 4 Architecture TRM</v>
+<v>contest\EZ-BLE_PRoC_Module\PRoC BLE Family Datasheet</v>
+<v>contest\EZ-BLE_PRoC_Module\System Reference Guides</v>
+<v>contest\EZ-BLE_PRoC_Module\System Reference Guides\cy_boot_v6_10</v>
+<v>contest\EZ-BLE_PRoC_Module\System Reference Guides\cy_lfclk_v1_20</v>
+<v>contest\EZ-BLE_PRoC_Module\BLE_v3_66.pdf</v>
+<v>contest\EZ-BLE_PRoC_Module\cy_pins_v2_20</v>
+<v>contest\EZ-BLE_PRoC_Module\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
+<v>contest\EZ-BLE_PRoC_Module\SCB_P4_v4_0.pdf</v>
+<v>contest\VoiceAssistantLauncher</v>
+<v>contest\VoiceAssistantLauncher\PSoC 4 Architecture TRM</v>
+<v>contest\VoiceAssistantLauncher\PSoC 4100S Family Datasheet</v>
+<v>contest\VoiceAssistantLauncher\System Reference Guides</v>
+<v>contest\VoiceAssistantLauncher\System Reference Guides\cy_boot_v5_90</v>
+<v>contest\VoiceAssistantLauncher\System Reference Guides\cy_lfclk_v1_20</v>
+<v>contest\VoiceAssistantLauncher\CapSense_P4_v7_0.pdf</v>
+<v>contest\VoiceAssistantLauncher\cy_clock_v2_20.pdf</v>
+<v>contest\VoiceAssistantLauncher\cy_pins_v2_20</v>
+<v>contest\VoiceAssistantLauncher\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
+<v>contest\VoiceAssistantLauncher\SCB_P4_v3_20.pdf</v>
+<v>contest\VoiceAssistantLauncher\SCB_P4_v4_0.pdf</v>
+<v>contest\VoiceAssistantLauncher\TCPWM_P4_v2_10</v>
+<v>contest\VoiceAssistantLauncher\TCPWM_P4_v2_10\TCPWM_P4_v2_10.pdf</v>
+</ExpandedNodeIds>
+<VisibleNodeIds />
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+</TreeStatesV2>
+</CyGuid_1b906a0f-a7b6-4e4d-a428-82f98b53cb35>
+</dataGuid>
+<dataGuid v="5f2be1a5-0687-4501-bb8c-cf21cb8211bf">
+<CyGuid_5f2be1a5-0687-4501-bb8c-cf21cb8211bf type_name="CyDesigner.Common.ProjMgmt.GUI.CyBookmarkData" version="1">
+<indicators />
+</CyGuid_5f2be1a5-0687-4501-bb8c-cf21cb8211bf>
+</dataGuid>
+</userData>
+</CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997>
+<Unloaded />
+<OpenDocs>
+<name v=".\VoiceAssistantLauncher.cydsn\TopDesign\TopDesign.cysch" />
+</OpenDocs>
+<OpenDocsLayout><![CDATA[<?xml version="1.0"?><!--
+
+  Actipro Docking/MDI for WinForms
+  Copyright (c) 2001-2016 Actipro Software LLC.  All rights reserved.
+  http://www.actiprosoftware.com
+
+--><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1105, 624" SelectedTabbedMdiWindow="da01056c-34f4-4be7-8b9c-2601a91ef5dc"><DocumentWindow Key="C:\prj\contest\infineon\contest\VoiceAssistantLauncher.cydsn\TopDesign\TopDesign.cysch" Guid="da01056c-34f4-4be7-8b9c-2601a91ef5dc" /><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="a56df3e6-4312-44e7-adb2-b9563a35a137" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
+<config v="" />
+<AutoUpdate v="true" />
+</CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21>
+</CyXmlSerializer>

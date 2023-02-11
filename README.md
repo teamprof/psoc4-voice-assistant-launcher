@@ -58,7 +58,7 @@ download and install the Voice Assistant Launcher App on Google Play:
 https://play.google.com/store/apps/details?id=net.teamprof.aremotekeyboard&pli=1
 
 ## Video Demo
-https://www.youtube.com/watch?v=xKHtfiDUNvw
+https://www.youtube.com/watch?v=8r2WXqRJdeI
 
 ## Demo code
 init I2C and CapSense at the beginning of main. Then enter a while loop where detect and handle gesture.
